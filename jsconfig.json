@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "@/blocks": ["components/blocks"],
+      "@/columns": ["components/blocks/columns"],
+      "@/components/*": ["components/*"],
+      "@/styles/*": ["styles/*"],
+      "@/icons": ["components/icons"],
+      "@/layout": ["components/layout"],
+      "@/lib/*": ["lib/*"],
+      "@/queries": ["lib/_queries"],
+      "@/svgs": ["components/svgs"],
+      "@/utils/*": ["utils/*"],
+      "@/models/*": ["lib/models/*"],
+      "@/hooks/*": ["hooks/*"]
+    }
+  }
+}
